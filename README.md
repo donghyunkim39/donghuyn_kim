@@ -82,21 +82,15 @@ source devel/setup.bash
 
 ## 2단계: usb_cam launch 파일 실행
 
-1) roscore 실행
-   
-새 터미널창에서
-```bash
-roscore 
-```
 
-2) launch 파일 실행
+1) launch 파일 실행
 
 새 터미널창에서 
 ```bash
 roslaunch usb_cam usb_cam-test.launch
 ```
 
-3) 
+2) 
 
 새 터미널창에서 
 ```bash
