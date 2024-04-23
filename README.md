@@ -37,13 +37,13 @@ source devel/setup.bash
 
 ## 1단계: usb_cam 패키지 설치
 
-1) 0단계에서 만든 폴더의 src폴더로 접속 (0단계 생략시 원하는 폴더의 src 폴더내로 접속)
+1)  0단계에서 만든 폴더의 src폴더로 접속 (0단계 생략시 원하는 폴더의 src 폴더내로 접속)
 새 터미널창을 열고
 ```bash
 cd test_ws/src
 ``` 
  
-1) ROS1(ROS) 버전 package 다운로드
+2) ROS1(ROS) 버전 package 다운로드
 ```bash
 git clone -b develop https://github.com/bosch-ros-pkg/usb_cam --recursive
 ```
