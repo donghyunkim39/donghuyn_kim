@@ -6,6 +6,6 @@ For the user who:  ubuntu에서 ROS1(Ros2x)을 사용자하는 사용자가 usb�
 
 
 
-'''bash
+'''
 print("hello")
 '''
