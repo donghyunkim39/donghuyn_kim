@@ -12,13 +12,24 @@ For the user who:  ubuntu에서 ROS1(Ros2x)을 사용자하는 사용자가 usb�
 
 ## 1단계(option): Package 다운받을 WS 폴더 만들기 
 
-#1) WS(폴더 생성) (폴더이름은 자유 but, 여기서 test_ws라고 함)
+#1) WS(폴더) 생성 #폴더 이름은 자유 but, 여기서 test_ws라고 함.
 ubuntu 명령창에 다음을 입력
 
 ```bash
 mkdir -p ~/test_ws/src
 ```
-#2) 
+#2) catkin_make 진행
+```bash
+cd ~/test_ws/
+```
+
+```bash
+catkin_make
+```
+
+```bash
+source devel/setup.bash
+```
 
 
 ## 2단계: usb_cam 패키지 설치
