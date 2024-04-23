@@ -5,7 +5,7 @@ For the user who:  ubuntu에서 ROS1(Ros2x)을 사용자하는 사용자가 usb�
 ## 1단계: usb_cam 패키지 설치
 
 
-> fit
-'''python
+> f
+'''bash
 print("hello")
 '''
