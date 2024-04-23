@@ -78,7 +78,7 @@ test_ws 폴더 내에서 (src 폴더안이 아님) 빌드 적용 즉, cd ~/test_
 source devel/setup.bash
 ```
 
-##2단계: usb_cam launch 파일 실행
+## 2단계: usb_cam launch 파일 실행
 
 1) roscore 실행
    
