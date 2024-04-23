@@ -50,7 +50,7 @@ git clone -b develop https://github.com/bosch-ros-pkg/usb_cam --recursive
 git clone https://github.com/ros-drivers/usb_cam.git 로 package 다운로드시 오류가 떴던 이유는 이 주소로 package 다운받으면 ROS2 Branch가 default이기 때문이다.
 따라서 ROS1을 지원하는 develop branch를 다운 받아준다.
 
-2) catkin_make 진행
+3) catkin_make 진행
  ```bash
 cd ~/test_ws/
 ```
@@ -59,12 +59,12 @@ cd ~/test_ws/
 catkin_make
 ```
 
-여기까지 진행후 오류가 없다면 1단계의 4)로 jump 
+여기까지 진행후 오류가 없다면 1단계의 5.로 jump 
 
 만약 위에서 언급한 2) Error 내용 ' No package 'libv4l2' found ' (CMakeLists.txt:10) 가 발생한다면 아래 내용 계속 진행
 ![error1](https://github.com/donghyunkim39/donghuyn_kim/assets/163104650/ad542aa2-87bc-4d7b-860b-85bea6345b34)
 
-3) package 'libv4l2' 다운
+4) package 'libv4l2' 다운
 
 새 터미널창을 열고
 
@@ -72,7 +72,7 @@ catkin_make
 sudo apt-get install -y libv4l-dev
 ```
 
-4) 변경 설정 적용
+5) 변경 설정 적용
 test_ws 폴더 내에서 (src 폴더안이 아님) 빌드 적용 즉, cd ~/test_ws 상태에서
 ```bash
 source devel/setup.bash
