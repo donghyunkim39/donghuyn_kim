@@ -88,14 +88,18 @@ roscore
 ```
 
 2) launch 파일 실행
+새 터미널창에서 
 ```bash
 roslaunch usb_cam usb_cam-test.launch
 ```
-새 터미널창에서 
+
 3) 
+새 터미널창에서 
 ```bash
 rostopic list 
 ```
+
+
 입력하면 usb_cam 이 topic 으로 뜨는걸 확인할수있다.
 캠확인은 터미널창에 rviz 혹은 rqt_image_view 로 확인 가능
 
