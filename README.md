@@ -38,6 +38,7 @@ source devel/setup.bash
 ## 1단계: usb_cam 패키지 설치
 
 1)  0단계에서 만든 폴더의 src폴더로 접속 (0단계 생략시 원하는 폴더의 src 폴더내로 접속)
+
 새 터미널창을 열고
 ```bash
 cd test_ws/src
@@ -73,6 +74,7 @@ sudo apt-get install -y libv4l-dev
 ```
 
 5) 변경 설정 적용
+
 test_ws 폴더 내에서 (src 폴더안이 아님) 빌드 적용 즉, cd ~/test_ws 상태에서
 ```bash
 source devel/setup.bash
@@ -88,12 +90,14 @@ roscore
 ```
 
 2) launch 파일 실행
+
 새 터미널창에서 
 ```bash
 roslaunch usb_cam usb_cam-test.launch
 ```
 
 3) 
+
 새 터미널창에서 
 ```bash
 rostopic list 
