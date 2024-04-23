@@ -60,7 +60,7 @@ cd ~/test_ws/
 catkin_make
 ```
 
-여기까지 진행후 오류가 없다면 1단계의 5.로 jump 
+여기까지 진행후 오류가 없다면 1단계의 5.변경 설정 적용 으로 jump 
 
 만약 위에서 언급한 2) Error 내용 ' No package 'libv4l2' found ' (CMakeLists.txt:10) 가 발생한다면 아래 내용 계속 진행
 ![error1](https://github.com/donghyunkim39/donghuyn_kim/assets/163104650/ad542aa2-87bc-4d7b-860b-85bea6345b34)
