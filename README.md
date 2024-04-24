@@ -91,7 +91,7 @@ source devel/setup.bash
 roslaunch usb_cam usb_cam-test.launch
 ```
 
-2) 
+2) usb_cam topic publish 확인 
 
 새 터미널창에서 
 ```bash
