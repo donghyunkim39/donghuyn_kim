@@ -9,7 +9,8 @@ For the user who:  ubuntu에서 ROS1(Ros2x)을 사용자하는 사용자가 usb�
 
 2) Error 내용: Ros1 버전으로 usb_cam package를 다운받았어도 ' No package 'libv4l2' found ' (CMakeLists.txt:10) 오류가 뜰때가 있다.
 > => 이는 Error 내용에서 알수있듯이 'libv4l2' package가 없어서 생긴 오류이므로 package를 설치한다.
-![error1](https://github.com/donghyunkim39/donghuyn_kim/assets/163104650/cb06191e-c9c0-4fac-86fb-e3c1cdbae020)
+![error2](https://github.com/donghyunkim39/usb_cam-package-install/assets/163104650/9147e44d-8b16-4b0f-8281-89855fc717b8)
+
 
 
 ## 0단계(option): Package 다운받을 WS 폴더 만들기 
